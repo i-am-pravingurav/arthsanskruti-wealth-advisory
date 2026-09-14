@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arth Sanskruti Wealth Advisory | Pravin Gurav — Financial Advisor, Pune</title>
+<meta name="description" content="Arth Sanskruti Wealth Advisory — trusted financial guidance, insurance solutions, investment planning, and taxation services in Pune, Maharashtra, led by financial advisor Pravin Gurav.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<!-- ===== Header / Navigation ===== -->
+<header class="site-header" id="site-header">
+  <nav class="navbar" aria-label="Primary navigation">
+    <a href="#home" class="navbar__brand">
+      <img class="navbar__logo" src="static/logo.jpeg" alt="Arth Sanskruti Wealth Advisory logo">
+      <span class="navbar__brand-text">
+        <span class="navbar__brand-name">Arth Sanskruti Wealth Advisory</span>
+        <span class="navbar__brand-tag">Your Goals. Our Guidance.</span>
+      </span>
+    </a>
+
+    <button class="navbar__toggle" id="navToggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Open menu">
+      <span class="navbar__toggle-bar"></span>
+      <span class="navbar__toggle-bar"></span>
+      <span class="navbar__toggle-bar"></span>
+    </button>
+
+    <div class="navbar__menu" id="navMenu">
+      <ul class="navbar__links">
+        <li><a href="#home" class="navbar__link" data-nav-link>Home</a></li>
+        <li><a href="#about" class="navbar__link" data-nav-link>About</a></li>
+        <li><a href="#services" class="navbar__link" data-nav-link>Services</a></li>
+        <li><a href="#why-us" class="navbar__link" data-nav-link>Why Choose Us</a></li>
+        <li><a href="#contact" class="navbar__link" data-nav-link>Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--gold navbar__cta" data-nav-link>Get Advice</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+      <div class="hero__content" data-reveal>
+        <p class="eyebrow">Trusted Financial Guidance</p>
+        <h1 class="hero__title">Your Goals.<br><span class="text-gold">Our Guidance.</span></h1>
+        <p class="hero__subtitle">Secure Today, Strong Tomorrow.</p>
+        <p class="hero__desc">
+          Trusted financial guidance, insurance solutions, investment planning, and taxation
+          services to help individuals and families secure their future and grow their wealth.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--gold">Get Personalized Advice</a>
+          <a href="#services" class="btn btn--outline">Explore Our Services</a>
+        </div>
+        <ul class="hero__trust-row">
+          <li>Insurance Guidance</li>
+          <li>Investment Planning</li>
+          <li>Taxation Services</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual" data-reveal>
+        <svg viewBox="0 0 480 420" class="hero__svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="barGold" x1="0" y1="1" x2="0" y2="0">
+              <stop offset="0%" stop-color="#B8860B"/>
+              <stop offset="100%" stop-color="#F0C24B"/>
+            </linearGradient>
+            <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="70%" stop-color="var(--color-navy-light)"/>
+              <stop offset="100%" stop-color="var(--color-navy)"/>
+            </radialGradient>
+          </defs>
+          <circle cx="240" cy="210" r="190" fill="url(#ringGlow)"/>
+          <circle cx="240" cy="210" r="190" fill="none" stroke="var(--color-gold)" stroke-width="1" opacity="0.35"/>
+          <circle cx="240" cy="210" r="160" fill="none" stroke="var(--color-gold)" stroke-width="1" opacity="0.2" stroke-dasharray="2 8"/>
+          <g stroke="rgba(228,199,123,0.18)" stroke-width="1">
+            <line x1="60" y1="330" x2="420" y2="330"/>
+            <line x1="60" y1="270" x2="420" y2="270"/>
+            <line x1="60" y1="210" x2="420" y2="210"/>
+            <line x1="60" y1="150" x2="420" y2="150"/>
+          </g>
+          <g>
+            <rect x="95" y="260" width="32" height="70" rx="3" fill="url(#barGold)" opacity="0.85"/>
+            <rect x="150" y="220" width="32" height="110" rx="3" fill="url(#barGold)" opacity="0.9"/>
+            <rect x="205" y="180" width="32" height="150" rx="3" fill="url(#barGold)" opacity="0.95"/>
+            <rect x="260" y="140" width="32" height="190" rx="3" fill="url(#barGold)"/>
+            <rect x="315" y="100" width="32" height="230" rx="3" fill="url(#barGold)"/>
+          </g>
+          <polyline points="95,255 166,205 221,165 276,120 331,80" fill="none" stroke="#F5E4B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="331" cy="80" r="7" fill="#F5E4B8"/>
+          <path d="M331 80 L372 58 M372 58 L372 76 M372 58 L354 58" fill="none" stroke="#F5E4B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <div class="hero__floating-card">
+          <span class="hero__floating-card-label">Advisory Focus</span>
+          <span class="hero__floating-card-value">Insurance &middot; Investments &middot; Taxation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trust Stats Band ===== -->
+  <div class="stats-band">
+    <div class="section-inner stats-band__inner">
+      <div class="stat-item">
+        <span class="stat-item__value">4+</span>
+        <span class="stat-item__label">Years of Financial<br>Advisory Experience</span>
+      </div>
+      <span class="stat-item__divider" aria-hidden="true"></span>
+      <div class="stat-item">
+        <span class="stat-item__value">250+</span>
+        <span class="stat-item__label">Trusted Clients &amp;<br>Investor Relationships</span>
+      </div>
+      <span class="stat-item__divider" aria-hidden="true"></span>
+      <div class="stat-item">
+        <span class="stat-item__value">100%</span>
+        <span class="stat-item__label">Personalized &amp;<br>Goal-Based Approach</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== About Section ===== -->
+  <section class="about" id="about">
+    <div class="section-inner about__inner">
+      <div class="about__visual" data-reveal>
+        <div class="about__frame">
+          <img
+            class="about__photo"
+            src="static/founder.jpeg"
+            alt="Pravin Gurav, Financial Advisor at Arth Sanskruti Wealth Advisory"
+            loading="lazy"
+          />
+        </div>
+        <div class="about__frame-accent" aria-hidden="true"></div>
+      </div>
+      <div class="about__content" data-reveal>
+        <p class="eyebrow">About Us</p>
+        <h2 class="section-title">Guidance You Can Trust</h2>
+        <p class="about__text">
+          At Arth Sanskruti Wealth Advisory, we help you make informed financial decisions with
+          personalized guidance across insurance, investments, and taxation. Our aim is to
+          simplify financial planning and help you work toward your goals with confidence.
+        </p>
+        <div class="advisor-card">
+          <div class="advisor-card__info">
+            <p class="advisor-card__name">Pravin Gurav</p>
+            <p class="advisor-card__role">Financial Advisor</p>
+            <p class="advisor-card__location">Pune, Maharashtra</p>
+            <p class="advisor-card__license">AMFI Registered &middot; ARN&nbsp;260023</p>
+          </div>
+          <a href="#contact" class="advisor-card__cta">Schedule a Consultation &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Award strip -->
+    <div class="about__award-strip">
+      <div class="section-inner about__award-inner" data-reveal>
+        <p class="eyebrow eyebrow--center about__award-eyebrow">Recognition</p>
+        <figure class="about__award-figure">
+          <img
+            class="about__award-photo"
+            src="static/award.jpeg"
+            alt="Pravin Gurav receiving an award for excellence in financial advisory"
+            loading="lazy"
+          />
+          <figcaption class="about__award-caption">
+            Pravin Gurav receiving recognition for excellence in financial advisory services
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services Section ===== -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <div data-reveal>
+        <p class="eyebrow eyebrow--center">Our Services</p>
+        <h2 class="section-title section-title--center">Financial Solutions Built Around You</h2>
+        <p class="section-subtitle">
+          Explore our range of insurance, investment, and financial planning services designed to
+          support your goals at every stage.
+        </p>
+      </div>
+
+      <div class="services__grid" id="servicesGrid">
+        <!-- Service cards are injected here by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Why Choose Us Section ===== -->
+  <section class="why-us" id="why-us">
+    <div class="section-inner">
+      <div data-reveal>
+        <p class="eyebrow eyebrow--center">Why Choose Us</p>
+        <h2 class="section-title section-title--center">A Partner In Your Financial Journey</h2>
+      </div>
+
+      <div class="why-us__grid">
+        <div class="benefit-card">
+          <div class="benefit-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 4 L42 12 V22 C42 34 34 42 24 44 C14 42 6 34 6 22 V12 Z" fill="none" stroke="var(--color-gold)" stroke-width="2.5"/><path d="M16 24 L22 30 L33 17" fill="none" stroke="var(--color-navy)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="benefit-card__title">Personalized Financial Guidance</h3>
+          <p class="benefit-card__desc">Advice tailored to your individual and family financial goals, not a one-size-fits-all approach.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="6" y="18" width="36" height="22" rx="3" fill="none" stroke="var(--color-gold)" stroke-width="2.5"/><path d="M14 18 V12 A10 10 0 0 1 34 12 V18" fill="none" stroke="var(--color-navy)" stroke-width="2.5"/></svg>
+          </div>
+          <h3 class="benefit-card__title">Comprehensive Financial Solutions</h3>
+          <p class="benefit-card__desc">Insurance, investments, and taxation services covered under one trusted advisory relationship.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" fill="none" stroke="var(--color-gold)" stroke-width="2.5"/><path d="M17 24 H31 M24 17 V31" stroke="var(--color-navy)" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="benefit-card__title">Clear and Simple Advice</h3>
+          <p class="benefit-card__desc">Financial concepts explained in plain language, so you always understand your options.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M8 40 L18 24 L26 32 L40 12" fill="none" stroke="var(--color-gold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 12 H40 V20" fill="none" stroke="var(--color-navy)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="benefit-card__title">Goal-Oriented Planning</h3>
+          <p class="benefit-card__desc">Strategies structured around what matters most to you — family, security, and growth.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="8" y="10" width="32" height="28" rx="3" fill="none" stroke="var(--color-gold)" stroke-width="2.5"/><path d="M8 18 H40" stroke="var(--color-navy)" stroke-width="2.5"/><circle cx="16" cy="28" r="2.4" fill="var(--color-navy)"/><circle cx="24" cy="28" r="2.4" fill="var(--color-navy)"/></svg>
+          </div>
+          <h3 class="benefit-card__title">Convenient Consultation</h3>
+          <p class="benefit-card__desc">Easy to reach by phone or WhatsApp for a consultation at a time that works for you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Foundation of Wealth ===== -->
+  <section class="foundation" id="foundation">
+    <div class="section-inner">
+      <div data-reveal>
+        <p class="eyebrow eyebrow--center">Financial Planning Framework</p>
+        <h2 class="section-title section-title--center">The Foundation of Wealth</h2>
+        <p class="section-subtitle">
+          No skyscraper stands without a strong foundation. Your financial skyscraper is no different.
+          <strong>Build it right. Build it strong.</strong>
+        </p>
+      </div>
+
+      <div class="foundation__layout">
+
+        <!-- Wealth Pyramid -->
+        <div class="foundation__pyramid-wrap" data-reveal>
+          <div class="pyramid">
+            <div class="pyramid__tier pyramid__tier--7">
+              <span class="pyramid__label">Wealth Creation</span>
+              <span class="pyramid__sublabel">Long Term Financial Freedom</span>
+            </div>
+            <div class="pyramid__tier pyramid__tier--6">
+              <span class="pyramid__label">Retirement</span>
+              <span class="pyramid__sublabel">Peaceful &amp; Independent Life</span>
+            </div>
+            <div class="pyramid__tier pyramid__tier--5">
+              <span class="pyramid__label">Child Education</span>
+              <span class="pyramid__sublabel">Secure Their Dreams</span>
+            </div>
+            <div class="pyramid__tier pyramid__tier--4">
+              <span class="pyramid__label">Dream Home</span>
+              <span class="pyramid__sublabel">A Place of Happiness</span>
+            </div>
+            <div class="pyramid__tier pyramid__tier--3">
+              <span class="pyramid__label">Emergency Fund</span>
+              <span class="pyramid__sublabel">Be Ready For Anything</span>
+            </div>
+            <div class="pyramid__tier pyramid__tier--2">
+              <span class="pyramid__label">Health Insurance</span>
+              <span class="pyramid__sublabel">Protects your family from rising medical costs</span>
+            </div>
+            <div class="pyramid__tier pyramid__tier--1">
+              <span class="pyramid__label">Term Insurance</span>
+              <span class="pyramid__sublabel">Protects your family from loss of income</span>
+            </div>
+          </div>
+          <p class="pyramid__caption">Start with the right foundation &mdash; everything else follows</p>
+        </div>
+
+        <!-- Why It Matters Stats -->
+        <div class="foundation__stats" data-reveal>
+          <h3 class="foundation__stats-heading">Why This Foundation Matters</h3>
+          <div class="foundation__stat-list">
+            <div class="foundation__stat">
+              <span class="foundation__stat-value">14%</span>
+              <div class="foundation__stat-body">
+                <p class="foundation__stat-text">Medical inflation in India annually</p>
+                <p class="foundation__stat-source">Source: NITI Aayog</p>
+              </div>
+            </div>
+            <div class="foundation__stat">
+              <span class="foundation__stat-value">&#8377;2.4L</span>
+              <div class="foundation__stat-body">
+                <p class="foundation__stat-text">Average cost of a 3-day hospitalization in a metro city</p>
+                <p class="foundation__stat-source">Source: Aarogya World Hospital Benchmarking Report 2023</p>
+              </div>
+            </div>
+            <div class="foundation__stat">
+              <span class="foundation__stat-value">54%</span>
+              <div class="foundation__stat-body">
+                <p class="foundation__stat-text">of Indians have no health insurance cover</p>
+                <p class="foundation__stat-source">Source: IRDAI 2023 (Insurance Density Report)</p>
+              </div>
+            </div>
+            <div class="foundation__stat">
+              <span class="foundation__stat-value">77%</span>
+              <div class="foundation__stat-body">
+                <p class="foundation__stat-text">of families in India have no life insurance cover</p>
+                <p class="foundation__stat-source">Source: LIMRA 2023</p>
+              </div>
+            </div>
+            <div class="foundation__stat">
+              <span class="foundation__stat-value">10&ndash;15&times;</span>
+              <div class="foundation__stat-body">
+                <p class="foundation__stat-text">Annual income needed as adequate life cover</p>
+                <p class="foundation__stat-source">Source: FPSB India</p>
+              </div>
+            </div>
+            <div class="foundation__stat">
+              <span class="foundation__stat-value">#1</span>
+              <div class="foundation__stat-body">
+                <p class="foundation__stat-text">Untimely death of the earning member is the top cause of financial crisis in families</p>
+                <p class="foundation__stat-source">Source: Life Happens 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Outcomes band -->
+      <div class="foundation__outcomes" data-reveal>
+        <p class="foundation__outcomes-heading">When the foundation is strong &mdash; everything above becomes possible</p>
+        <div class="foundation__outcomes-grid">
+          <span>Financial Freedom</span>
+          <span>Stress-Free Life</span>
+          <span>Secure Family</span>
+          <span>Achieve Dreams</span>
+          <span>Leave a Legacy</span>
+          <span>Peace of Mind</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Financial Planning Callout ===== -->
+  <section class="callout">
+    <div class="section-inner callout__inner" data-reveal>
+      <span class="callout__divider" aria-hidden="true"></span>
+      <h2 class="callout__heading">Plan Smart. Invest Wise. Live Secure.</h2>
+      <p class="callout__text">
+        Whether you are protecting your family, planning investments, or managing your tax
+        requirements, get personalized guidance for your financial journey.
+      </p>
+      <a href="https://wa.me/919604529328?text=Hi%20Pravin%2C%20I%20would%20like%20to%20discuss%20my%20financial%20planning%20needs." target="_blank" rel="noopener noreferrer" class="btn btn--gold">Talk to Pravin Gurav</a>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <div data-reveal>
+        <p class="eyebrow eyebrow--center">Contact Us</p>
+        <h2 class="section-title section-title--center">Let&rsquo;s Plan Your Financial Future</h2>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact-info" data-reveal>
+          <h3 class="contact-info__name">Pravin Gurav</h3>
+          <p class="contact-info__role">Financial Advisor</p>
+
+          <div class="info-card-list">
+            <a href="tel:+919604529328" class="info-card">
+              <span class="info-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48"><path d="M14 8 C12 8 10 10 10 12 C10 28 20 38 36 38 C38 38 40 36 40 34 L40 28 L30 25 L27 30 C22 27 19 24 16 19 L21 16 L18 6 Z" fill="none" stroke="var(--color-gold)" stroke-width="2.4" stroke-linejoin="round"/></svg>
+              </span>
+              <span class="info-card__body">
+                <span class="info-card__label">Call Us</span>
+                <span class="info-card__value">9604529328</span>
+              </span>
+            </a>
+
+            <button type="button" class="info-card" id="mapButton" aria-label="Open our address in Maps">
+              <span class="info-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48"><path d="M24 4 C15 4 8 11 8 20 C8 32 24 44 24 44 C24 44 40 32 40 20 C40 11 33 4 24 4 Z" fill="none" stroke="var(--color-gold)" stroke-width="2.4"/><circle cx="24" cy="20" r="6" fill="var(--color-gold)"/></svg>
+              </span>
+              <span class="info-card__body">
+                <span class="info-card__label">Visit Us</span>
+                <span class="info-card__value">City Centre, Erandwana, Karve Road, Pune &ndash; 411004</span>
+                <span class="info-card__hint">Tap to open in Maps</span>
+              </span>
+            </button>
+          </div>
+
+          <div class="contact-info__actions">
+            <a href="tel:+919604529328" class="btn btn--outline">Call Now</a>
+            <a href="https://wa.me/919604529328" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp">
+              WhatsApp Us
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate data-reveal>
+          <p class="contact-form__notice" role="note">
+            This form does not submit to any backend. On submit, it opens WhatsApp with your
+            details pre-filled — you'll need to tap Send in WhatsApp yourself to deliver it.
+          </p>
+
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <span class="form-error" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+            <span class="form-error" id="phoneError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <span class="form-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn--gold contact-form__submit">Send Message</button>
+
+          <p class="contact-form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Service Detail Modal ===== -->
+<div class="modal-overlay" id="modalOverlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" id="modal">
+    <button type="button" class="modal__close" id="modalClose" aria-label="Close dialog">&times;</button>
+    <h3 class="modal__title" id="modalTitle"></h3>
+    <p class="modal__desc" id="modalDesc"></p>
+    <ul class="modal__list" id="modalList"></ul>
+    <a href="https://wa.me/919604529328" target="_blank" rel="noopener noreferrer" class="btn btn--gold modal__cta" id="modalCta">Get Advice</a>
+  </div>
+</div>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="section-inner footer__inner">
+    <div class="footer__brand">
+      <p class="footer__brand-name">Arth Sanskruti Wealth Advisory</p>
+      <p class="footer__brand-tag">Your Goals. Our Guidance.</p>
+      <p class="footer__brand-tag">Secure Today, Strong Tomorrow.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4 class="footer__heading">Quick Links</h4>
+      <ul class="footer__list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Choose Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4 class="footer__heading">Services</h4>
+      <ul class="footer__list">
+        <li><a href="#services">Insurance Services</a></li>
+        <li><a href="#services">Investment Services</a></li>
+        <li><a href="#services">Specialized Insurance Solutions</a></li>
+        <li><a href="#services">Financial Planning &amp; Taxation</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4 class="footer__heading">Contact</h4>
+      <ul class="footer__list">
+        <li><a href="tel:+919604529328">9604529328</a></li>
+        <li>City Centre, Erandwana, Karve Road, Pune – 411004</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-inner footer__bottom">
+    <p>&copy; <span id="footerYear"></span> Arth Sanskruti Wealth Advisory. All Rights Reserved.</p>
+    <p class="footer__disclaimer">
+      AMFI Registered Mutual Fund Distributor | ARN No. 260023. Mutual fund investments are
+      subject to market risks. Read all scheme-related documents carefully before investing.
+      Insurance and investment products are subject to their respective terms, conditions,
+      and applicable regulations.
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
